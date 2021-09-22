@@ -184,6 +184,7 @@ footer {
     width: 100vw;
     background-color: #23272a;
     color: white;
+    font-size: 12px;
 }
 
 footer .footer-content {
@@ -192,7 +193,12 @@ footer .footer-content {
 }
 
 .col1 {
-    width: 29%;
+    width: 29%;;
+}
+
+.col1 h3 {
+    color: #6578bd;
+    font-size: 18px;
 }
 
 .col2 {
@@ -209,4 +215,13 @@ footer .footer-content {
 
 .col5 {
     width: 20%;
+}
+
+.col1 .leanguage img{
+    width: 20px;
+    margin-top: 10px;
+}
+
+.fot-title {
+    color: #6578bd;
 }
