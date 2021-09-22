@@ -162,3 +162,7 @@ main section .content .content-image img {
 main section .content .content-text p, h2{
     padding-top: 30px;
 }
+
+main section:nth-child(2) {
+    background-color: #f6f6f6;
+}
