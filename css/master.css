@@ -5,3 +5,18 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/*UTILITY*/
+/*HEADER*/
+header {
+    width: 100vw;
+    background-color: #3161e0;
+}
+
+header .container-header {
+    margin: 0 10%;
+}
+
+.logo, .navigation {
+    display: inline-block;
+}
