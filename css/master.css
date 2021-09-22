@@ -7,6 +7,25 @@
 }
 
 /*UTILITY*/
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.button {
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.fl-l {
+    float: left;
+}
+
+.fl-r {
+    float: right;
+}
 /*HEADER*/
 header {
     width: 100vw;
@@ -15,8 +34,38 @@ header {
 
 header .container-header {
     margin: 0 10%;
+    height: 80px;
 }
 
-.logo, .navigation {
+.logo {
+    vertical-align: middle;
+    width: 30%;
+}
+
+.navigation {
+    width: 70%;
+}
+
+.navigation ul li {
     display: inline-block;
 }
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 45px;
+    line-height: 80px;
+    font-size: 14px;
+}
+
+.navigation ul li a:hover{
+    text-decoration: underline;
+}
+
+.navigation ul li:last-child a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+
