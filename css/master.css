@@ -45,6 +45,17 @@
     font-size: 14px;
 }
 
+.ln-h {
+    line-height: 1.6;
+}
+
+.wd70 {
+    width: 70%;
+}
+
+.wd30{
+    width: 30%;
+}
 /*HEADER*/
 header {
     width: 100vw;
@@ -117,10 +128,6 @@ header .container-header {
     margin-bottom: 30px;
 }
 
-.banner-text p {
-    line-height: 1.6;
-}
-
 .banner-button {
     background-color: white;
     color: black;
@@ -130,4 +137,15 @@ header .container-header {
 .banner-button2 {
     background-color: #23272a;
     color: white;
+}
+
+/*MAIN*/
+main section{
+    width: 100vw;
+}
+
+main section .content {
+    width: 70%;
+    padding: 90px 0;
+
 }
