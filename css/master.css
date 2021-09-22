@@ -7,6 +7,11 @@
   
 }
 
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 /*UTILITY*/
 .clearfix::after {
     content: '';
@@ -124,7 +129,7 @@ header .container-header {
 } 
 
 .banner-text h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 
@@ -148,4 +153,12 @@ main section .content {
     width: 70%;
     padding: 90px 0;
 
+}
+
+main section .content .content-image img {
+    width: 580px;
+}
+
+main section .content .content-text p, h2{
+    padding-top: 30px;
 }
