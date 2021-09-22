@@ -178,3 +178,35 @@ main section:last-child {
 .section-button {
     background-color: #8ea1e1;
 }
+
+/*FOOTER*/
+footer {
+    width: 100vw;
+    background-color: #23272a;
+    color: white;
+}
+
+footer .footer-content {
+    width: 70%;
+    padding: 90px 0;
+}
+
+.col1 {
+    width: 29%;
+}
+
+.col2 {
+    width: 17%;
+}
+
+.col3 {
+    width: 17%;
+}
+
+.col4 {
+    width: 17%;
+}
+
+.col5 {
+    width: 20%;
+}
