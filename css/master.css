@@ -166,3 +166,15 @@ main section .content .content-text p, h2{
 main section:nth-child(2) {
     background-color: #f6f6f6;
 }
+
+main section:last-child {
+    background-color: #f6f6f6;
+}
+
+.content .last-title img {
+    width: 350px;
+}
+
+.section-button {
+    background-color: #8ea1e1;
+}
