@@ -224,4 +224,19 @@ footer .footer-content {
 
 .fot-title {
     color: #6578bd;
+    font-weight: bolder;
+}
+
+footer div ul {
+    margin-top: 15px;
+}
+
+.fot-list li  {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.fot-list li a {
+    text-decoration: none;
+    color: white;
 }
