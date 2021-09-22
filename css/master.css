@@ -190,6 +190,7 @@ footer {
 footer .footer-content {
     width: 70%;
     padding: 90px 0;
+    border-bottom: 2px solid #6578bd ;
 }
 
 .col1 {
@@ -239,4 +240,17 @@ footer div ul {
 .fot-list li a {
     text-decoration: none;
     color: white;
+}
+
+.fot-bottom {
+    width: 70%;
+    padding: 20px 0;
+}
+
+footer .fot-bottom:last-child a {
+    color: white;
+    background-color:#6578bd ;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
 }
